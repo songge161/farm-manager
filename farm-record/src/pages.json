@@ -1,0 +1,102 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/Records/index",
+      "style": {
+        "navigationBarTitleText": "记录"
+      }
+    },
+    {
+      "path": "pages/Home/index",
+      "style": {
+        "navigationBarTitleText": "农事记录小程序"
+      }
+    },
+    {
+      "path": "pages/My/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/RecordTable/index",
+      "style": {
+        "navigationBarTitleText": "记录"
+      }
+    },
+    {
+      "path": "pages/Create/index",
+      "style": {
+        "navigationBarTitleText": "创建"
+      }
+    },
+    {
+      "path": "pages/Weather/index",
+      "style": {
+        "navigationBarTitleText": "天气"
+      }
+    },
+    {
+      "path": "pages/Remind/index",
+      "style": {
+        "navigationBarTitleText": "提醒"
+      }
+    },
+    {
+      "path": "pages/Records/detail",
+      "style": {
+        "navigationBarTitleText": "操作详情"
+      }
+    },
+    {
+      "path": "pages/RemindList/index",
+      "style": {
+        "navigationBarTitleText": "我的提醒"
+      }
+    },{
+      "path": "pages/Records/recordList",
+      "style": {
+        "navigationBarTitleText": "我的记录"
+      }
+    }
+
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "农事记录小程序",
+    "navigationBarBackgroundColor": "#5db524",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#5db524",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_selected.png"
+      },
+      {
+        "pagePath": "pages/Records/index",
+        "text": "记录",
+        "iconPath": "static/records.png",
+        "selectedIconPath": "static/records_selected.png"
+      },
+      {
+        "pagePath": "pages/My/index",
+        "text": "我的",
+        "iconPath": "static/system.png",
+        "selectedIconPath": "static/system_selected.png"
+      }
+    ]
+  }
+}
